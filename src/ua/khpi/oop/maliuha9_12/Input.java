@@ -1,10 +1,9 @@
-package ua.khpi.oop.maliuha;
+package ua.khpi.oop.maliuha9_12;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.time.LocalDate;
 import java.util.*;
 
 public class Input {

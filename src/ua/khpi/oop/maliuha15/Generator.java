@@ -1,9 +1,8 @@
 package ua.khpi.oop.maliuha15;
 
-import ua.khpi.oop.maliuha.Composition;
+import ua.khpi.oop.maliuha9_12.Composition;
 
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Random;

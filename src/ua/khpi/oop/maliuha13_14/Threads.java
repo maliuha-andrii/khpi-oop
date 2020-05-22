@@ -1,9 +1,9 @@
-package ua.khpi.oop.maliuha14;
+package ua.khpi.oop.maliuha13_14;
 
-import ua.khpi.oop.maliuha.Composition;
-import ua.khpi.oop.maliuha.Interface;
-import ua.khpi.oop.maliuha.MyList;
-import ua.khpi.oop.maliuha.Regex;
+import ua.khpi.oop.maliuha9_12.Composition;
+import ua.khpi.oop.maliuha9_12.Interface;
+import ua.khpi.oop.maliuha9_12.MyList;
+import ua.khpi.oop.maliuha9_12.Regex;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

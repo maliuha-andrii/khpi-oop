@@ -1,9 +1,9 @@
 package ua.khpi.oop.maliuha15;
 
-import ua.khpi.oop.maliuha.Composition;
-import ua.khpi.oop.maliuha.Input;
-import ua.khpi.oop.maliuha.Regex;
-import ua.khpi.oop.maliuha.Files;
+import ua.khpi.oop.maliuha9_12.Composition;
+import ua.khpi.oop.maliuha9_12.Input;
+import ua.khpi.oop.maliuha9_12.Regex;
+import ua.khpi.oop.maliuha9_12.Files;
 
 
 import java.io.IOException;

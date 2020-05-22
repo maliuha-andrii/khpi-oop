@@ -1,4 +1,4 @@
-package ua.khpi.oop.maliuha;
+package ua.khpi.oop.maliuha9_12;
 
 import java.util.Scanner;
 import java.io.File;
@@ -8,7 +8,7 @@ public class Files {
 
     public static String controller() {
 
-        String output = ("C:\\pomoika");
+        String output = ("C:\\oop\\khpi-oop\\src\\ua\\khpi\\oop\\maliuha15\\res");
 
         String find2 = "";
         int k2 = 0;

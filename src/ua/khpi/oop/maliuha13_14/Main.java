@@ -1,6 +1,6 @@
-package ua.khpi.oop.maliuha14;
+package ua.khpi.oop.maliuha13_14;
 
-import ua.khpi.oop.maliuha.Interface;
+import ua.khpi.oop.maliuha9_12.Interface;
 
 import java.io.IOException;
 

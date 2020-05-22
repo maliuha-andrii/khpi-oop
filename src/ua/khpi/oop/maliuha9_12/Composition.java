@@ -1,4 +1,4 @@
-package ua.khpi.oop.maliuha;
+package ua.khpi.oop.maliuha9_12;
 
 import java.util.LinkedHashMap;
 import java.util.List;

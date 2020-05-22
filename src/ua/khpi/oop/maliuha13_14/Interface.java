@@ -1,6 +1,6 @@
-package ua.khpi.oop.maliuha14;
+package ua.khpi.oop.maliuha13_14;
 
-import ua.khpi.oop.maliuha.*;
+import ua.khpi.oop.maliuha9_12.*;
 
 import java.io.IOException;
 import java.util.Comparator;
