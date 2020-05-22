@@ -1,6 +1,5 @@
 package ua.khpi.oop.maliuha;
 
-import java.time.LocalDate;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -11,7 +10,7 @@ public class Composition {
     private String genre;
     private String author;
     private List<String> lyrics;
-    private LocalDate date;
+    private String date;
     private int durationSec;
     private String dataFormat;
     private Map<String, Integer> ratings;
@@ -49,7 +48,7 @@ public class Composition {
         this.lyrics = lyrics;
     }
 
-    public void setDate(LocalDate date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
@@ -82,7 +81,7 @@ public class Composition {
         return lyrics;
     }
 
-    public LocalDate getDate() {
+    public String getDate() {
         return date;
     }
 
@@ -142,9 +141,9 @@ public class Composition {
         for (int j = 0; j < arrStr.length; j++) {
             str += arrStr[j] + ": " + ratings.get(arrStr[j]) + '\n';
         }
-        str += ANSI_RESET + "\nDate release: " + ANSI_GREEN + getDate().toString() + ANSI_RESET
-                + "\nDuration: " + ANSI_GREEN + getDurationSec() / 60 + ANSI_RESET
-                + "\nDataFormat: " + ANSI_GREEN + getDataFormat() + ANSI_RESET
+        str += ANSI_RESET + "\nDate release: " + ANSI_GREEN + date + ANSI_RESET
+                + "\nDuration: " + ANSI_GREEN + durationSec / 60 + ANSI_RESET
+                + "\nDataFormat: " + ANSI_GREEN + dataFormat + ANSI_RESET
                 + "\n-----------------------------------\n";
 
         return str;

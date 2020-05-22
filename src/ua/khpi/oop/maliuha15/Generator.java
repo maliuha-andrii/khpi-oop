@@ -93,7 +93,7 @@ public class Generator {
             day = (int) (Math.random() * (10 - 28)) + 28;
             duration = (int) (Math.random() * (280 - 80)) + 80;
             composition.setDurationSec(duration);
-            composition.setDate(LocalDate.parse(year.toString() + '-' + month.toString() + '-' + day.toString()));
+            composition.setDate(year.toString() + '-' + month.toString() + '-' + day.toString());
             composition.setDataFormat("mp3");
             Map<String, Integer> rating = new LinkedHashMap<>();
             duration = (int) (Math.random() * (11 - 1)) + 1;

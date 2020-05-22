@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.1" class="java.beans.XMLDecoder">
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition0">
+  <void property="author">
+   <string>OfCegg3EM0nwM1Wf</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>1948-11-15</string>
+  </void>
+  <void property="durationSec">
+   <int>121</int>
+  </void>
+  <void property="genre">
+   <string>OfCegg3EM0nwM1Wf</string>
+  </void>
+  <void property="name">
+   <string>OfCegg3EM0nwM1Wf</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>OfCegg3EM0nwM1Wf</string>
+    <int>5</int>
+   </void>
+  </void>
+ </object>
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition1">
+  <void property="author">
+   <string>0hu6UbGYgorSGjLl</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>2017-11-13</string>
+  </void>
+  <void property="durationSec">
+   <int>217</int>
+  </void>
+  <void property="genre">
+   <string>0hu6UbGYgorSGjLl</string>
+  </void>
+  <void property="name">
+   <string>0hu6UbGYgorSGjLl</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>0hu6UbGYgorSGjLl</string>
+    <int>1</int>
+   </void>
+  </void>
+ </object>
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition2">
+  <void property="author">
+   <string>1306LPvCF2UuMJFf</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>1925-11-17</string>
+  </void>
+  <void property="durationSec">
+   <int>218</int>
+  </void>
+  <void property="genre">
+   <string>1306LPvCF2UuMJFf</string>
+  </void>
+  <void property="name">
+   <string>1306LPvCF2UuMJFf</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>1306LPvCF2UuMJFf</string>
+    <int>2</int>
+   </void>
+  </void>
+ </object>
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition3">
+  <void property="author">
+   <string>YgibcVJwdnItOgUN</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>1968-11-17</string>
+  </void>
+  <void property="durationSec">
+   <int>197</int>
+  </void>
+  <void property="genre">
+   <string>YgibcVJwdnItOgUN</string>
+  </void>
+  <void property="name">
+   <string>YgibcVJwdnItOgUN</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>YgibcVJwdnItOgUN</string>
+    <int>1</int>
+   </void>
+  </void>
+ </object>
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition4">
+  <void property="author">
+   <string>JnQstiE6wgWBgGUS</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>1921-11-12</string>
+  </void>
+  <void property="durationSec">
+   <int>113</int>
+  </void>
+  <void property="genre">
+   <string>JnQstiE6wgWBgGUS</string>
+  </void>
+  <void property="name">
+   <string>JnQstiE6wgWBgGUS</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>JnQstiE6wgWBgGUS</string>
+    <int>5</int>
+   </void>
+  </void>
+ </object>
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition5">
+  <void property="author">
+   <string>P5fGi2RIVyGODUYl</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>1938-11-12</string>
+  </void>
+  <void property="durationSec">
+   <int>248</int>
+  </void>
+  <void property="genre">
+   <string>P5fGi2RIVyGODUYl</string>
+  </void>
+  <void property="name">
+   <string>P5fGi2RIVyGODUYl</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>P5fGi2RIVyGODUYl</string>
+    <int>9</int>
+   </void>
+  </void>
+ </object>
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition6">
+  <void property="author">
+   <string>PjDfqKgUWPEe5o1F</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>1924-11-14</string>
+  </void>
+  <void property="durationSec">
+   <int>179</int>
+  </void>
+  <void property="genre">
+   <string>PjDfqKgUWPEe5o1F</string>
+  </void>
+  <void property="name">
+   <string>PjDfqKgUWPEe5o1F</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>PjDfqKgUWPEe5o1F</string>
+    <int>6</int>
+   </void>
+  </void>
+ </object>
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition7">
+  <void property="author">
+   <string>WQogHjP07KSCB4wd</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>1919-11-14</string>
+  </void>
+  <void property="durationSec">
+   <int>250</int>
+  </void>
+  <void property="genre">
+   <string>WQogHjP07KSCB4wd</string>
+  </void>
+  <void property="name">
+   <string>WQogHjP07KSCB4wd</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>WQogHjP07KSCB4wd</string>
+    <int>10</int>
+   </void>
+  </void>
+ </object>
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition8">
+  <void property="author">
+   <string>orfcbQRMKdLjr2RS</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>1948-11-18</string>
+  </void>
+  <void property="durationSec">
+   <int>164</int>
+  </void>
+  <void property="genre">
+   <string>orfcbQRMKdLjr2RS</string>
+  </void>
+  <void property="name">
+   <string>orfcbQRMKdLjr2RS</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>orfcbQRMKdLjr2RS</string>
+    <int>7</int>
+   </void>
+  </void>
+ </object>
+ <object class="ua.khpi.oop.maliuha.Composition" id="Composition9">
+  <void property="author">
+   <string>f6rH2VPcSfvu7YMR</string>
+  </void>
+  <void property="dataFormat">
+   <string>mp3</string>
+  </void>
+  <void property="date">
+   <string>2010-11-13</string>
+  </void>
+  <void property="durationSec">
+   <int>198</int>
+  </void>
+  <void property="genre">
+   <string>f6rH2VPcSfvu7YMR</string>
+  </void>
+  <void property="name">
+   <string>f6rH2VPcSfvu7YMR</string>
+  </void>
+  <void property="ratings">
+   <void method="put">
+    <string>f6rH2VPcSfvu7YMR</string>
+    <int>8</int>
+   </void>
+  </void>
+ </object>
+</java>

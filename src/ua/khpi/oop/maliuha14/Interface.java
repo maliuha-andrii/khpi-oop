@@ -1,4 +1,6 @@
-package ua.khpi.oop.maliuha;
+package ua.khpi.oop.maliuha14;
+
+import ua.khpi.oop.maliuha.*;
 
 import java.io.IOException;
 import java.util.Comparator;
@@ -52,6 +54,16 @@ public class Interface {
                     break;
                 case 11:
                     Generator.generator(10);
+                    break;
+                case 12:
+                    Threads.startThreads();
+                    break;
+                case 13:
+                    long b = Threads.cParallel();
+                    long j = Threads.comparisonSequential();
+
+                    System.out.println("Time via sequential: " + j);
+                    System.out.println("Time via parallel: " + b);
                     break;
             }
             choices();
@@ -120,6 +132,8 @@ public class Interface {
         System.out.println("9 - Download data");
         System.out.println("10 - Search compositions about New Year");
         System.out.println("11 - Generate Data");
+        System.out.println("12 - Start threads");
+        System.out.println("13 - Check working time of threads");
         System.out.println("0 - Exit");
         System.out.print("Select: ");
 

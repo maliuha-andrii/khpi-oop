@@ -70,7 +70,7 @@ public class Input {
         return null;
     }
 
-    private static LocalDate enterDate() {
+    private static String enterDate() {
         System.out.println("Input date of release(yyyy-mm-dd): ");
         String date = in.nextLine();
         while (date != "exit") {
@@ -78,7 +78,7 @@ public class Input {
                 System.out.print("WARNING: Invalid date of release. Enter 'exit' to leave. Try again: ");
                 date = in.nextLine();
             } else {
-                return LocalDate.parse(date);
+                return date;
             }
         }
         return null;
