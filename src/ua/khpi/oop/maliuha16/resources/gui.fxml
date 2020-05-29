@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="691.0" prefWidth="1251.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="401.0" prefWidth="1251.0" style="-fx-background-color: #481718;" VBox.vgrow="ALWAYS">
+      <children>
+            <TableView fx:id="tableCompositions" layoutX="123.0" layoutY="176.0" prefHeight="504.0" prefWidth="1111.0">
+              <columns>
+                  <TableColumn fx:id="nameColumn" minWidth="5.0" prefWidth="237.0" text="Name" />
+                <TableColumn fx:id="genreColumn" prefWidth="109.0" text="Genre" />
+                  <TableColumn fx:id="lyricsColumn" minWidth="5.0" prefWidth="410.0" text="Lyrics" />
+                <TableColumn fx:id="infoColumn" prefWidth="221.0" text="Info" />
+                  <TableColumn fx:id="fileColumn" prefWidth="132.0" text="File" />
+              </columns>
+            </TableView>
+            <Button fx:id="generateButton" layoutX="273.0" layoutY="137.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="123.0" style="-fx-background-color: #f19900;" text="Generate" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <TextField fx:id="countOfGeneratedField" layoutX="273.0" layoutY="99.0" prefHeight="26.0" prefWidth="123.0" />
+            <Label layoutX="273.0" layoutY="55.0" prefHeight="29.0" prefWidth="123.0" text="Generator" textFill="#f2f2f2">
+               <font>
+                  <Font size="23.0" />
+               </font></Label>
+            <Pane layoutX="1077.0" layoutY="196.0" />
+            <Label layoutX="490.0" layoutY="10.0" prefHeight="35.0" prefWidth="199.0" text="Sort" textFill="#ebe7e7">
+               <font>
+                  <Font size="23.0" />
+               </font></Label>
+            <Group layoutX="1085.0" layoutY="206.0" />
+            <VBox layoutX="490.0" layoutY="37.0" prefHeight="95.0" prefWidth="199.0">
+               <children>
+                  <RadioButton fx:id="sortName" mnemonicParsing="false" prefHeight="26.0" prefWidth="63.0" text="Name" textFill="#ebdfdf">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="sort" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="sortRating" mnemonicParsing="false" prefHeight="35.0" prefWidth="67.0" text="Rating" textFill="#f2ecec" toggleGroup="$sort" />
+                  <RadioButton fx:id="sortAuthor" mnemonicParsing="false" prefHeight="26.0" prefWidth="68.0" text="Author" textFill="#e8dcdc" toggleGroup="$sort" />
+               </children>
+            </VBox>
+            <Button fx:id="deleteButton" layoutX="14.0" layoutY="226.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="100.0" style="-fx-background-color: #f19900;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <Button fx:id="saveDataButton" layoutX="14.0" layoutY="560.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="100.0" style="-fx-background-color: #f19900;" text="Save" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <Button fx:id="loadDataButton" layoutX="14.0" layoutY="610.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="100.0" style="-fx-background-color: #f19900;" text="Load" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <Button fx:id="addButton" layoutX="14.0" layoutY="176.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="100.0" style="-fx-background-color: #f19900;" text="Add" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <VBox layoutX="828.0" layoutY="36.0" prefHeight="95.0" prefWidth="208.0">
+               <children>
+                  <RadioButton fx:id="findName" mnemonicParsing="false" prefHeight="35.0" prefWidth="63.0" text="Name" textFill="#ebe1e1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="sort1" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="findAuthor" mnemonicParsing="false" prefHeight="32.0" prefWidth="68.0" text="Author" textFill="#e4dfdf" toggleGroup="$sort1" />
+                  <TextField fx:id="searchField" prefHeight="26.0" prefWidth="216.0" />
+               </children>
+            </VBox>
+            <Button fx:id="resetButton" layoutX="14.0" layoutY="276.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="100.0" style="-fx-background-color: #f19900;" text="Reset" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <Label layoutX="828.0" layoutY="10.0" prefHeight="35.0" prefWidth="199.0" text="Search" textFill="#ebe7e7">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="searchButton" layoutX="828.0" layoutY="137.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="208.0" style="-fx-background-color: #f19900;" text="Search" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="sortButton" layoutX="483.0" layoutY="137.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="213.0" style="-fx-background-color: #f19900;" text="Sort" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
